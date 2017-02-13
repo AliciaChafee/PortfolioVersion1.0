@@ -4,8 +4,10 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
   <link rel="shortcut icon" href="img/favicon1.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-mfizz/font-mfizz.css">
   <title>Alicia Chafee | Front-End Web Developer</title>
 </head>
 
@@ -15,7 +17,7 @@
    <header>
    <br>
       <ul class="topNav" id="myTopNav">
-         <li><a href="#contact">Contact</a></li>
+         <li><a href="#contact" id='contactButton'>Contact</a></li>
          <li><a href="#work">Work</a></li>
          <li><a href="#about">About</a></li>
          <br>
@@ -29,8 +31,9 @@
 
    <div class='hero'>
    <br>
-     <h2 id="heroName">Alicia Chafee</h2>
+     <h2 id="heroName">ALICIA CHAFEE</h2>
      <span><em>Front-End Javascript and Wordpress Developer</em></span>
+     <a href="#about" style='color: white'><i class="fa fa-angle-double-down" style="font-size:36px"></i></a>
    </div>
 
    <content>
@@ -39,7 +42,7 @@
     <div id="about">
       <h2>About</h2>
       <p>I am a front-end web designer and developer based out of Richmond, Virginia. </p>
-      <span>HTML |</span><span>CSS |</span><span>Javascript |</span><span>Wordpress</span>
+      <span>HTML<i class="fa fa-html5 pics" aria-hidden="true" ></i>|</span><span>CSS <i class="fa fa-css3 pics" aria-hidden="true"></i>|</span><span>Javascript <i class="icon-javascript-alt pics" style="font-size:30px"></i>|</span><span>Wordpress <i class="fa fa-wordpress" aria-hidden="true"></i></span>
       <br>
       <br>
       <br>
@@ -72,16 +75,20 @@
        <p>Currently working out of <em>Richmond, VA</em></p>
        <p>Email me today to get started on your awesome new website!</p>
        <br>
-       <email>Email: aliciachafee@gmail.com</email>
+       <i class="fa fa-envelope" aria-hidden="true"></i><email> aliciachafee@gmail.com</email>
        <br>
        <br>
        <div class="socialButtons">
-       <form  method="LINK" action="https://github.com/AliciaChafee" target='_blank' >
+       <div class="icons">
+       <a href="https://github.com/AliciaChafee" target='_blank'><i class="fa fa-github" id="github" aria-hidden="true" style='font-size: 50px'></i></a>
+       <a href="https://linkedin.com/in/alicia-chafee" target='_blank'><i class="fa fa-linkedin-square" id="linkedin" aria-hidden="true" style="font-size: 50px"></i></a>
+       <!-- <form  method="LINK" action="https://github.com/AliciaChafee" target='_blank' >
        <input class = "btn" type="submit" value="GitHub">
-       </form>
-       <form  method="LINK" action="https://linkedin.com/in/alicia-chafee" target='_blank' >
+       </form> -->
+       <!-- <form  method="LINK" action="https://linkedin.com/in/alicia-chafee" target='_blank' >
        <input class= "btn" type="submit" value="LinkedIn">
-       </form>
+       </form> -->
+       </div>
        <a id="resume" href="doc/Alicia Chafee.pdf" target='_blank'><button type="submit" class='btn'>Download Resume</button></a>
        <br>
        <br>
